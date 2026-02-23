@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "${mod_id}",
+  "name": "${mod_name}",
+  "version": "${mod_version}",
+  "description": "Civ modding library",
+  "authors": ["Gjum", "Orinnari"],
+  "contact": {
+    "homepage": "https://github.com/CivCommon/Civ-Common-Mod",
+    "sources": "https://github.com/CivCommon/Civ-Common-Mod"
+  },
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {},
+  "mixins": [
+    "civcommon.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.18",
+    "minecraft": "${minecraft}"
+  }
+}
